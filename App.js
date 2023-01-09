@@ -33,8 +33,20 @@ export default function App() {
          
          <CompCon1 hoTen = "Nguyen VAN" tuoi = "20"
               parentCallback={callback_CompCon1} />
+
+        <Text style={ DinhDang.tieuDe }>Ví dụ text </Text>
+
     </View>
   );
 
 }
  
+
+const DinhDang = StyleSheet.create({
+  chu:{
+      color:"red"
+  },
+  tieuDe:{
+    color: "blue"
+  }
+});
